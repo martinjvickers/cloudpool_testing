@@ -22,7 +22,7 @@ Copy from isilon to cloudpool
 0:35.43 elapsed
 ```
 
-FAIDX on the isilon
+FAIDX on the isilon 
 
 ```
 time samtools faidx JI2822_Hifiasm_assembly1.p_ctg.FINAL.fasta
@@ -32,7 +32,7 @@ user    0m25.509s
 sys     0m0.967s
 ```
 
-FAIDX on cloudpool
+FAIDX on cloudpool - this is still cached i.e. not on the ECS yet
 
 ```
 $ time samtools faidx JI2822_Hifiasm_assembly1.p_ctg.FINAL.fasta
